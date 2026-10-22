@@ -1,0 +1,1082 @@
+{
+  "visitors": [
+    {
+      "id": "USR-MIQP1D",
+      "email": "fy@gmail.com",
+      "device": "Desktop",
+      "browser": "Google Chrome",
+      "ip": "::1",
+      "firstEntered": "Oct 21 at 2026, 09:49 PM",
+      "lastActive": "Oct 21 at 2026, 09:49 PM",
+      "visitsCount": 1,
+      "scansCount": 1
+    },
+    {
+      "id": "USR-UFIS66",
+      "email": "dev@gmail.com",
+      "device": "Desktop",
+      "browser": "Google Chrome",
+      "ip": "::1",
+      "firstEntered": "Oct 21 at 2026, 09:49 PM",
+      "lastActive": "Oct 21 at 2026, 09:49 PM",
+      "visitsCount": 2,
+      "scansCount": 1
+    },
+    {
+      "id": "USR-H13TPD",
+      "email": "saiyerrapatruni@gmail.com",
+      "device": "Desktop",
+      "browser": "Google Chrome",
+      "ip": "::1",
+      "firstEntered": "Oct 16, 2026 at 04:36 PM",
+      "lastActive": "Oct 21, 2026 at 09:10 PM",
+      "visitsCount": 30,
+      "scansCount": 3
+    },
+    {
+      "id": "VIS-HKPE65",
+      "email": "alex@example.com",
+      "device": "Desktop",
+      "browser": "Google Chrome",
+      "ip": "::1",
+      "firstEntered": "Oct 16, 2026 at 04:36 PM",
+      "lastActive": "Oct 16, 2026 at 04:49 PM",
+      "visitsCount": 9,
+      "scansCount": 1
+    },
+    {
+      "id": "VIS-WNYH9E",
+      "name": "sai",
+      "device": "Desktop",
+      "browser": "Google Chrome",
+      "ip": "::1",
+      "firstEntered": "Oct 16, 2026 at 04:27 PM",
+      "lastActive": "Oct 16, 2026 at 04:27 PM",
+      "visitsCount": 2,
+      "scansCount": 0
+    },
+    {
+      "id": "VIS-MGUZGW",
+      "name": "New Visitor",
+      "device": "Desktop",
+      "browser": "Google Chrome",
+      "ip": "::1",
+      "firstEntered": "Oct 16, 2026 at 04:26 PM",
+      "lastActive": "Oct 16, 2026 at 04:26 PM",
+      "visitsCount": 2,
+      "scansCount": 0
+    },
+    {
+      "id": "VIS-4B81CW",
+      "name": "User",
+      "device": "Desktop",
+      "browser": "Google Chrome",
+      "ip": "::1",
+      "firstEntered": "Oct 16, 2026 at 04:01 PM",
+      "lastActive": "Oct 16, 2026 at 04:34 PM",
+      "visitsCount": 8,
+      "scansCount": 0
+    },
+    {
+      "id": "VIS-8JKFVB",
+      "name": "ggg",
+      "device": "Mobile / Tablet",
+      "browser": "Google Chrome",
+      "ip": "::1",
+      "firstEntered": "Oct 15, 2026 at 11:15 PM",
+      "lastActive": "Oct 15, 2026 at 11:18 PM",
+      "visitsCount": 4,
+      "scansCount": 0
+    },
+    {
+      "id": "VIS-OW1YIV",
+      "name": "harsha",
+      "device": "Desktop",
+      "browser": "Google Chrome",
+      "ip": "::1",
+      "firstEntered": "Oct 15, 2026 at 11:15 PM",
+      "lastActive": "Oct 15, 2026 at 11:15 PM",
+      "visitsCount": 2,
+      "scansCount": 0
+    },
+    {
+      "id": "VIS-QEZM66",
+      "name": "harsha",
+      "device": "Desktop / Browser",
+      "browser": "Web Browser",
+      "ip": "127.0.0.1",
+      "firstEntered": "Oct 15, 2026 at 09:50 PM",
+      "lastActive": "Oct 15, 2026 at 09:59 PM",
+      "visitsCount": 1,
+      "scansCount": 3
+    }
+  ],
+  "scans": [
+    {
+      "id": "SCN-955369-144",
+      "visitorId": "VIS-HKPE65",
+      "visitorName": "Alex",
+      "userEmail": "alex@example.com",
+      "submittedText": "Dear Customer, your SBI account KYC has expired. Your account will be blocked within 24 hours. Update your KYC immediately at http://sbi-kyc-verify.top to avoid permanent suspension.",
+      "scanType": "msg",
+      "msg": "Dear Customer, your SBI account KYC has expired. Your account will be blocked within 24 hours. Update your KYC immediately at http://sbi-kyc-verify.top to avoid permanent suspension.",
+      "message": "Dear Customer, your SBI account KYC has expired. Your account will be blocked within 24 hours. Update your KYC immediately at http://sbi-kyc-verify.top to avoid permanent suspension.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 100,
+      "riskLevel": "Likely Scam",
+      "category": "Subdomain Phishing Attack",
+      "warningSigns": [
+        {
+          "id": "bank_threat",
+          "title": "Urgent Threat to Bank Account",
+          "category": "Bank Fraud",
+          "description": "Scammers manufacture artificial panic with tight deadlines so victims react without thinking.",
+          "weight": 45,
+          "matchedWords": [
+            "account will be blocked",
+            "within 24 hours"
+          ]
+        },
+        {
+          "id": "fake_kyc",
+          "title": "Fake KYC / Identity Update Notice",
+          "category": "KYC Phishing",
+          "description": "Banks never send SMS or messaging links asking customers to complete KYC, PAN, or Aadhaar updates online.",
+          "weight": 45,
+          "matchedWords": [
+            "KYC has expired",
+            "Update your KYC"
+          ]
+        },
+        {
+          "id": "suspicious_link",
+          "title": "Urgent Link-Click Call to Action",
+          "category": "Phishing Link",
+          "description": "Unsolicited messages urging you to click or tap an unverified website link often lead to phishing or credential-harvesting websites.",
+          "weight": 35,
+          "matchedWords": [
+            "http://sbi-kyc-verify.top"
+          ]
+        },
+        {
+          "id": "subdomain_deception",
+          "title": "Deceptive Subdomain Brand Impersonation (State Bank of India)",
+          "category": "Subdomain Phishing Attack",
+          "weight": 75,
+          "description": "The URL prefixes 'State Bank of India' in its subdomain to mislead users, but the actual root destination domain is 'sbi-kyc-verify.top', NOT official State Bank of India.",
+          "matchedWords": [
+            "sbi-kyc-verify.top",
+            "actual host: sbi-kyc-verify.top"
+          ]
+        },
+        {
+          "id": "financial_phishing_domain",
+          "title": "Financial / Account Suspension Phishing Domain",
+          "category": "Bank Fraud Phishing Link",
+          "weight": 75,
+          "description": "The website address ('sbi-kyc-verify.top') contains financial fraud keywords (\"kyc\"). Unofficial domains using bank verification terms are created to harvest net banking credentials and OTPs.",
+          "matchedWords": [
+            "kyc"
+          ]
+        },
+        {
+          "id": "multi_hyphen_domain",
+          "title": "Multi-Hyphenated Deceptive Domain Structure",
+          "category": "Deceptive Domain",
+          "weight": 25,
+          "description": "The domain 'sbi-kyc-verify' strings multiple hyphenated words together (2 hyphens). Scammers frequently concatenate common words to bypass spam filters and mimic real services.",
+          "matchedWords": [
+            "sbi-kyc-verify"
+          ]
+        },
+        {
+          "id": "high_risk_tld",
+          "title": "Disposable High-Risk Domain Extension (.top)",
+          "category": "Phishing Link",
+          "weight": 35,
+          "description": "The link uses a cheap, disposable burner domain extension (.top) predominantly favored by cybercriminals for throwaway phishing portals.",
+          "matchedWords": [
+            ".top"
+          ]
+        },
+        {
+          "id": "insecure_http",
+          "title": "Unencrypted HTTP Protocol",
+          "category": "Insecure Link",
+          "weight": 20,
+          "description": "The link uses plain unencrypted HTTP rather than secure HTTPS. Any passwords or personal details entered can be intercepted in transit.",
+          "matchedWords": [
+            "http://"
+          ]
+        }
+      ],
+      "explanation": "Urgent financial fraud threat detected. The message creates artificial panic around bank account suspension or unauthorized charges (\"account will be blocked\", \"within 24 hours\") to coerce you into revealing credentials or calling a fake number.",
+      "recommendation": "Do NOT click any links or call phone numbers in this message. Log in directly via your official bank mobile app or call the number printed on the back of your debit card.",
+      "verdictSummary": "Urgent bank account fraud alert detected",
+      "scanDateTime": "Oct 16, 2026 at 04:39 PM"
+    },
+    {
+      "id": "SCN-784463-800",
+      "visitorId": "VIS-QEZM66",
+      "visitorName": "harsha",
+      "submittedText": "http://sbi-kyc-verify.top/login",
+      "scanType": "url",
+      "msg": null,
+      "message": null,
+      "url": "http://sbi-kyc-verify.top/login",
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 100,
+      "riskLevel": "Likely Scam",
+      "category": "Subdomain Phishing Attack",
+      "warningSigns": [
+        {
+          "id": "subdomain_deception",
+          "title": "Deceptive Subdomain Brand Impersonation (State Bank of India)",
+          "category": "Subdomain Phishing Attack",
+          "weight": 75,
+          "description": "The URL prefixes 'State Bank of India' in its subdomain to mislead users, but the actual root destination domain is 'sbi-kyc-verify.top', NOT official State Bank of India.",
+          "matchedWords": [
+            "sbi-kyc-verify.top",
+            "actual host: sbi-kyc-verify.top"
+          ]
+        },
+        {
+          "id": "financial_phishing_domain",
+          "title": "Financial / Account Suspension Phishing Domain",
+          "category": "Bank Fraud Phishing Link",
+          "weight": 75,
+          "description": "The website address ('sbi-kyc-verify.top') contains financial fraud keywords (\"kyc\"). Unofficial domains using bank verification terms are created to harvest net banking credentials and OTPs.",
+          "matchedWords": [
+            "kyc"
+          ]
+        },
+        {
+          "id": "multi_hyphen_domain",
+          "title": "Multi-Hyphenated Deceptive Domain Structure",
+          "category": "Deceptive Domain",
+          "weight": 25,
+          "description": "The domain 'sbi-kyc-verify' strings multiple hyphenated words together (2 hyphens). Scammers frequently concatenate common words to bypass spam filters and mimic real services.",
+          "matchedWords": [
+            "sbi-kyc-verify"
+          ]
+        },
+        {
+          "id": "high_risk_tld",
+          "title": "Disposable High-Risk Domain Extension (.top)",
+          "category": "Phishing Link",
+          "weight": 35,
+          "description": "The link uses a cheap, disposable burner domain extension (.top) predominantly favored by cybercriminals for throwaway phishing portals.",
+          "matchedWords": [
+            ".top"
+          ]
+        },
+        {
+          "id": "insecure_http",
+          "title": "Unencrypted HTTP Protocol",
+          "category": "Insecure Link",
+          "weight": 20,
+          "description": "The link uses plain unencrypted HTTP rather than secure HTTPS. Any passwords or personal details entered can be intercepted in transit.",
+          "matchedWords": [
+            "http://"
+          ]
+        }
+      ],
+      "explanation": "The URL prefixes 'State Bank of India' in its subdomain to mislead users, but the actual root destination domain is 'sbi-kyc-verify.top', NOT official State Bank of India. The website address ('sbi-kyc-verify.top') contains financial fraud keywords (\"kyc\"). Unofficial domains using bank verification terms are created to harvest net banking credentials and OTPs. The domain 'sbi-kyc-verify' strings multiple hyphenated words together (2 hyphens). Scammers frequently concatenate common words to bypass spam filters and mimic real services. The link uses a cheap, disposable burner domain extension (.top) predominantly favored by cybercriminals for throwaway phishing portals. The link uses plain unencrypted HTTP rather than secure HTTPS. Any passwords or personal details entered can be intercepted in transit.",
+      "recommendation": "Do NOT visit, click, or enter any credentials on this link ('http://sbi-kyc-verify.top/login'). It is identified as a deceptive phishing clone. Navigate directly to the official website instead.",
+      "verdictSummary": "Phishing clone / lookalike domain (sbi-kyc-verify.top)",
+      "scanDateTime": "Oct 15, 2026 at 09:59 PM"
+    },
+    {
+      "id": "SCN-774447-637",
+      "visitorId": "VIS-QEZM66",
+      "visitorName": "harsha",
+      "submittedText": "www.google.com",
+      "scanType": "url",
+      "msg": null,
+      "message": null,
+      "url": "www.google.com",
+      "image": null,
+      "verdictStatus": "SAFE",
+      "riskScore": 0,
+      "riskLevel": "Safe",
+      "category": "Verified Official Website",
+      "warningSigns": [],
+      "explanation": "This link matches the authenticated official domain for Google (google.com). It does not exhibit typosquatting or deceptive redirects.",
+      "recommendation": "Link appears legitimate. Ensure you remain on an encrypted HTTPS connection with a valid certificate before entering any credentials.",
+      "verdictSummary": "Verified authentic domain for Google (google.com)",
+      "scanDateTime": "Oct 15, 2026 at 09:59 PM"
+    },
+    {
+      "id": "SCN-763936-530",
+      "visitorId": "VIS-QEZM66",
+      "visitorName": "harsha",
+      "submittedText": "www.goooogle.com",
+      "scanType": "url",
+      "msg": null,
+      "message": null,
+      "url": "www.goooogle.com",
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 75,
+      "riskLevel": "Likely Scam",
+      "category": "Brand Impersonation Phishing",
+      "warningSigns": [
+        {
+          "id": "typosquatting_repeated",
+          "title": "Typosquatting & Repeated Letters Imitating Google",
+          "category": "Brand Impersonation Phishing",
+          "weight": 75,
+          "description": "This website ('goooogle.com') uses deliberate typosquatting to impersonate Google. The domain repeats characters ('goooogle' instead of 'google.com') to deceive visitors.",
+          "matchedWords": [
+            "goooogle",
+            "fake clone of google.com"
+          ]
+        }
+      ],
+      "explanation": "This website ('goooogle.com') uses deliberate typosquatting to impersonate Google. The domain repeats characters ('goooogle' instead of 'google.com') to deceive visitors.",
+      "recommendation": "Do NOT visit, click, or enter any credentials on this link ('www.goooogle.com'). It is identified as a deceptive phishing clone. Navigate directly to the official website instead.",
+      "verdictSummary": "Phishing clone / lookalike domain (goooogle.com)",
+      "scanDateTime": "Oct 15, 2026 at 09:59 PM"
+    },
+    {
+      "id": "SCN-593564-297",
+      "visitorId": "USR-MIQP1D",
+      "visitorName": null,
+      "userEmail": "fy@gmail.com",
+      "submittedText": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "scanType": "msg",
+      "msg": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "message": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 95,
+      "riskLevel": "Likely Scam",
+      "category": "Fake Job Scam",
+      "warningSigns": [
+        {
+          "id": "job_fee",
+          "title": "Work-from-Home or Task Scam with Upfront Fee",
+          "category": "Fake Job Scam",
+          "description": "Real employers will never charge an upfront registration fee, security deposit, or task payment to begin work.",
+          "weight": 50,
+          "matchedWords": [
+            "Part-time work",
+            "Earn $500 daily by liking",
+            "registration fee",
+            "job security deposit"
+          ]
+        },
+        {
+          "id": "advance_fee",
+          "title": "Advance Processing or Customs Fee Demand",
+          "category": "Advance Fee Fraud",
+          "description": "Never pay upfront fees, customs duties, or handling charges to claim prizes, jobs, or courier deliveries.",
+          "weight": 45,
+          "matchedWords": [
+            "registration fee"
+          ]
+        }
+      ],
+      "explanation": "Fake work-from-home or task scam detected. The message advertises easy daily earnings (\"Part-time work\", \"Earn $500 daily by liking\", \"registration fee\", \"job security deposit\") designed to lure victims into paying upfront registration fees or task deposits.",
+      "recommendation": "Real employers never require upfront registration fees, security deposits, or Telegram task payments. Discontinue contact and do not transfer funds.",
+      "verdictSummary": "Work-from-home or task scam with upfront fee request",
+      "scanDateTime": "Oct 21 at 2026, 09:49 PM"
+    },
+    {
+      "id": "SCN-260573-622",
+      "visitorId": "USR-H13TPD",
+      "visitorName": "sai",
+      "userEmail": "saiyerrapatruni@gmail.com",
+      "submittedText": "Your Google verification code is 482910. Google will never call or message you to ask for this code. Do not share this code with anyone.",
+      "scanType": "msg",
+      "msg": "Your Google verification code is 482910. Google will never call or message you to ask for this code. Do not share this code with anyone.",
+      "message": "Your Google verification code is 482910. Google will never call or message you to ask for this code. Do not share this code with anyone.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "SAFE",
+      "riskScore": 0,
+      "riskLevel": "Safe",
+      "category": "Legitimate 2FA Authentication Alert",
+      "warningSigns": [],
+      "explanation": "This message exhibits standard characteristics of an authentic two-factor authentication (2FA) notification. It includes appropriate security disclaimers instructing you never to share the verification code.",
+      "recommendation": "Keep this security code private. Only enter it directly into the official service login screen, and never share it with anyone who calls or texts.",
+      "verdictSummary": "Legitimate 2FA security authentication code",
+      "scanDateTime": "Oct 16, 2026 at 04:44 PM"
+    },
+    {
+      "id": "SCN-243778-717",
+      "visitorId": "USR-H13TPD",
+      "visitorName": null,
+      "userEmail": "dev@gmail.com",
+      "submittedText": "hju",
+      "scanType": "msg",
+      "msg": "hju",
+      "message": "hju",
+      "url": null,
+      "image": null,
+      "verdictStatus": "SAFE",
+      "riskScore": 0,
+      "riskLevel": "Safe",
+      "category": "General Message",
+      "warningSigns": [],
+      "explanation": "No scam patterns, phishing indicators, or suspicious requests detected in this message. Content appears standard and safe.",
+      "recommendation": "No obvious red flags detected. Maintain standard security awareness and never share sensitive codes, passwords, or banking details with unverified senders.",
+      "verdictSummary": "No scam patterns or red flags detected in message",
+      "scanDateTime": "Oct 21, 2026 at 09:10 PM"
+    },
+    {
+      "id": "SCN-230998-980",
+      "visitorId": "USR-H13TPD",
+      "visitorName": "sai",
+      "userEmail": "saiyerrapatruni@gmail.com",
+      "submittedText": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "scanType": "msg",
+      "msg": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "message": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 95,
+      "riskLevel": "Likely Scam",
+      "category": "Fake Job Scam",
+      "warningSigns": [
+        {
+          "id": "job_fee",
+          "title": "Work-from-Home or Task Scam with Upfront Fee",
+          "category": "Fake Job Scam",
+          "description": "Real employers will never charge an upfront registration fee, security deposit, or task payment to begin work.",
+          "weight": 50,
+          "matchedWords": [
+            "Part-time work",
+            "Earn $500 daily by liking",
+            "registration fee",
+            "job security deposit"
+          ]
+        },
+        {
+          "id": "advance_fee",
+          "title": "Advance Processing or Customs Fee Demand",
+          "category": "Advance Fee Fraud",
+          "description": "Never pay upfront fees, customs duties, or handling charges to claim prizes, jobs, or courier deliveries.",
+          "weight": 45,
+          "matchedWords": [
+            "registration fee"
+          ]
+        }
+      ],
+      "explanation": "Fake work-from-home or task scam detected. The message advertises easy daily earnings (\"Part-time work\", \"Earn $500 daily by liking\", \"registration fee\", \"job security deposit\") designed to lure victims into paying upfront registration fees or task deposits.",
+      "recommendation": "Real employers never require upfront registration fees, security deposits, or Telegram task payments. Discontinue contact and do not transfer funds.",
+      "verdictSummary": "Work-from-home or task scam with upfront fee request",
+      "scanDateTime": "Oct 16, 2026 at 04:43 PM"
+    }
+  ],
+  "msg": [
+    {
+      "id": "SCN-593564-297",
+      "visitorId": "USR-MIQP1D",
+      "visitorName": null,
+      "userEmail": "fy@gmail.com",
+      "submittedText": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "scanType": "msg",
+      "msg": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "message": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 95,
+      "riskLevel": "Likely Scam",
+      "category": "Fake Job Scam",
+      "warningSigns": [
+        {
+          "id": "job_fee",
+          "title": "Work-from-Home or Task Scam with Upfront Fee",
+          "category": "Fake Job Scam",
+          "description": "Real employers will never charge an upfront registration fee, security deposit, or task payment to begin work.",
+          "weight": 50,
+          "matchedWords": [
+            "Part-time work",
+            "Earn $500 daily by liking",
+            "registration fee",
+            "job security deposit"
+          ]
+        },
+        {
+          "id": "advance_fee",
+          "title": "Advance Processing or Customs Fee Demand",
+          "category": "Advance Fee Fraud",
+          "description": "Never pay upfront fees, customs duties, or handling charges to claim prizes, jobs, or courier deliveries.",
+          "weight": 45,
+          "matchedWords": [
+            "registration fee"
+          ]
+        }
+      ],
+      "explanation": "Fake work-from-home or task scam detected. The message advertises easy daily earnings (\"Part-time work\", \"Earn $500 daily by liking\", \"registration fee\", \"job security deposit\") designed to lure victims into paying upfront registration fees or task deposits.",
+      "recommendation": "Real employers never require upfront registration fees, security deposits, or Telegram task payments. Discontinue contact and do not transfer funds.",
+      "verdictSummary": "Work-from-home or task scam with upfront fee request",
+      "scanDateTime": "Oct 21 at 2026, 09:49 PM"
+    },
+    {
+      "id": "SCN-243778-717",
+      "visitorId": "USR-H13TPD",
+      "visitorName": null,
+      "userEmail": "dev@gmail.com",
+      "submittedText": "hju",
+      "scanType": "msg",
+      "msg": "hju",
+      "message": "hju",
+      "url": null,
+      "image": null,
+      "verdictStatus": "SAFE",
+      "riskScore": 0,
+      "riskLevel": "Safe",
+      "category": "General Message",
+      "warningSigns": [],
+      "explanation": "No scam patterns, phishing indicators, or suspicious requests detected in this message. Content appears standard and safe.",
+      "recommendation": "No obvious red flags detected. Maintain standard security awareness and never share sensitive codes, passwords, or banking details with unverified senders.",
+      "verdictSummary": "No scam patterns or red flags detected in message",
+      "scanDateTime": "Oct 21, 2026 at 09:10 PM"
+    },
+    {
+      "id": "SCN-260573-622",
+      "visitorId": "USR-H13TPD",
+      "visitorName": "sai",
+      "userEmail": "saiyerrapatruni@gmail.com",
+      "submittedText": "Your Google verification code is 482910. Google will never call or message you to ask for this code. Do not share this code with anyone.",
+      "scanType": "msg",
+      "msg": "Your Google verification code is 482910. Google will never call or message you to ask for this code. Do not share this code with anyone.",
+      "message": "Your Google verification code is 482910. Google will never call or message you to ask for this code. Do not share this code with anyone.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "SAFE",
+      "riskScore": 0,
+      "riskLevel": "Safe",
+      "category": "Legitimate 2FA Authentication Alert",
+      "warningSigns": [],
+      "explanation": "This message exhibits standard characteristics of an authentic two-factor authentication (2FA) notification. It includes appropriate security disclaimers instructing you never to share the verification code.",
+      "recommendation": "Keep this security code private. Only enter it directly into the official service login screen, and never share it with anyone who calls or texts.",
+      "verdictSummary": "Legitimate 2FA security authentication code",
+      "scanDateTime": "Oct 16, 2026 at 04:44 PM"
+    },
+    {
+      "id": "SCN-230998-980",
+      "visitorId": "USR-H13TPD",
+      "visitorName": "sai",
+      "userEmail": "saiyerrapatruni@gmail.com",
+      "submittedText": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "scanType": "msg",
+      "msg": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "message": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 95,
+      "riskLevel": "Likely Scam",
+      "category": "Fake Job Scam",
+      "warningSigns": [
+        {
+          "id": "job_fee",
+          "title": "Work-from-Home or Task Scam with Upfront Fee",
+          "category": "Fake Job Scam",
+          "description": "Real employers will never charge an upfront registration fee, security deposit, or task payment to begin work.",
+          "weight": 50,
+          "matchedWords": [
+            "Part-time work",
+            "Earn $500 daily by liking",
+            "registration fee",
+            "job security deposit"
+          ]
+        },
+        {
+          "id": "advance_fee",
+          "title": "Advance Processing or Customs Fee Demand",
+          "category": "Advance Fee Fraud",
+          "description": "Never pay upfront fees, customs duties, or handling charges to claim prizes, jobs, or courier deliveries.",
+          "weight": 45,
+          "matchedWords": [
+            "registration fee"
+          ]
+        }
+      ],
+      "explanation": "Fake work-from-home or task scam detected. The message advertises easy daily earnings (\"Part-time work\", \"Earn $500 daily by liking\", \"registration fee\", \"job security deposit\") designed to lure victims into paying upfront registration fees or task deposits.",
+      "recommendation": "Real employers never require upfront registration fees, security deposits, or Telegram task payments. Discontinue contact and do not transfer funds.",
+      "verdictSummary": "Work-from-home or task scam with upfront fee request",
+      "scanDateTime": "Oct 16, 2026 at 04:43 PM"
+    },
+    {
+      "id": "SCN-955369-144",
+      "visitorId": "VIS-HKPE65",
+      "visitorName": "Alex",
+      "userEmail": "alex@example.com",
+      "submittedText": "Dear Customer, your SBI account KYC has expired. Your account will be blocked within 24 hours. Update your KYC immediately at http://sbi-kyc-verify.top to avoid permanent suspension.",
+      "scanType": "msg",
+      "msg": "Dear Customer, your SBI account KYC has expired. Your account will be blocked within 24 hours. Update your KYC immediately at http://sbi-kyc-verify.top to avoid permanent suspension.",
+      "message": "Dear Customer, your SBI account KYC has expired. Your account will be blocked within 24 hours. Update your KYC immediately at http://sbi-kyc-verify.top to avoid permanent suspension.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 100,
+      "riskLevel": "Likely Scam",
+      "category": "Subdomain Phishing Attack",
+      "warningSigns": [
+        {
+          "id": "bank_threat",
+          "title": "Urgent Threat to Bank Account",
+          "category": "Bank Fraud",
+          "description": "Scammers manufacture artificial panic with tight deadlines so victims react without thinking.",
+          "weight": 45,
+          "matchedWords": [
+            "account will be blocked",
+            "within 24 hours"
+          ]
+        },
+        {
+          "id": "fake_kyc",
+          "title": "Fake KYC / Identity Update Notice",
+          "category": "KYC Phishing",
+          "description": "Banks never send SMS or messaging links asking customers to complete KYC, PAN, or Aadhaar updates online.",
+          "weight": 45,
+          "matchedWords": [
+            "KYC has expired",
+            "Update your KYC"
+          ]
+        },
+        {
+          "id": "suspicious_link",
+          "title": "Urgent Link-Click Call to Action",
+          "category": "Phishing Link",
+          "description": "Unsolicited messages urging you to click or tap an unverified website link often lead to phishing or credential-harvesting websites.",
+          "weight": 35,
+          "matchedWords": [
+            "http://sbi-kyc-verify.top"
+          ]
+        },
+        {
+          "id": "subdomain_deception",
+          "title": "Deceptive Subdomain Brand Impersonation (State Bank of India)",
+          "category": "Subdomain Phishing Attack",
+          "weight": 75,
+          "description": "The URL prefixes 'State Bank of India' in its subdomain to mislead users, but the actual root destination domain is 'sbi-kyc-verify.top', NOT official State Bank of India.",
+          "matchedWords": [
+            "sbi-kyc-verify.top",
+            "actual host: sbi-kyc-verify.top"
+          ]
+        },
+        {
+          "id": "financial_phishing_domain",
+          "title": "Financial / Account Suspension Phishing Domain",
+          "category": "Bank Fraud Phishing Link",
+          "weight": 75,
+          "description": "The website address ('sbi-kyc-verify.top') contains financial fraud keywords (\"kyc\"). Unofficial domains using bank verification terms are created to harvest net banking credentials and OTPs.",
+          "matchedWords": [
+            "kyc"
+          ]
+        },
+        {
+          "id": "multi_hyphen_domain",
+          "title": "Multi-Hyphenated Deceptive Domain Structure",
+          "category": "Deceptive Domain",
+          "weight": 25,
+          "description": "The domain 'sbi-kyc-verify' strings multiple hyphenated words together (2 hyphens). Scammers frequently concatenate common words to bypass spam filters and mimic real services.",
+          "matchedWords": [
+            "sbi-kyc-verify"
+          ]
+        },
+        {
+          "id": "high_risk_tld",
+          "title": "Disposable High-Risk Domain Extension (.top)",
+          "category": "Phishing Link",
+          "weight": 35,
+          "description": "The link uses a cheap, disposable burner domain extension (.top) predominantly favored by cybercriminals for throwaway phishing portals.",
+          "matchedWords": [
+            ".top"
+          ]
+        },
+        {
+          "id": "insecure_http",
+          "title": "Unencrypted HTTP Protocol",
+          "category": "Insecure Link",
+          "weight": 20,
+          "description": "The link uses plain unencrypted HTTP rather than secure HTTPS. Any passwords or personal details entered can be intercepted in transit.",
+          "matchedWords": [
+            "http://"
+          ]
+        }
+      ],
+      "explanation": "Urgent financial fraud threat detected. The message creates artificial panic around bank account suspension or unauthorized charges (\"account will be blocked\", \"within 24 hours\") to coerce you into revealing credentials or calling a fake number.",
+      "recommendation": "Do NOT click any links or call phone numbers in this message. Log in directly via your official bank mobile app or call the number printed on the back of your debit card.",
+      "verdictSummary": "Urgent bank account fraud alert detected",
+      "scanDateTime": "Oct 16, 2026 at 04:39 PM"
+    }
+  ],
+  "message": [
+    {
+      "id": "SCN-593564-297",
+      "visitorId": "USR-MIQP1D",
+      "visitorName": null,
+      "userEmail": "fy@gmail.com",
+      "submittedText": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "scanType": "msg",
+      "msg": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "message": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 95,
+      "riskLevel": "Likely Scam",
+      "category": "Fake Job Scam",
+      "warningSigns": [
+        {
+          "id": "job_fee",
+          "title": "Work-from-Home or Task Scam with Upfront Fee",
+          "category": "Fake Job Scam",
+          "description": "Real employers will never charge an upfront registration fee, security deposit, or task payment to begin work.",
+          "weight": 50,
+          "matchedWords": [
+            "Part-time work",
+            "Earn $500 daily by liking",
+            "registration fee",
+            "job security deposit"
+          ]
+        },
+        {
+          "id": "advance_fee",
+          "title": "Advance Processing or Customs Fee Demand",
+          "category": "Advance Fee Fraud",
+          "description": "Never pay upfront fees, customs duties, or handling charges to claim prizes, jobs, or courier deliveries.",
+          "weight": 45,
+          "matchedWords": [
+            "registration fee"
+          ]
+        }
+      ],
+      "explanation": "Fake work-from-home or task scam detected. The message advertises easy daily earnings (\"Part-time work\", \"Earn $500 daily by liking\", \"registration fee\", \"job security deposit\") designed to lure victims into paying upfront registration fees or task deposits.",
+      "recommendation": "Real employers never require upfront registration fees, security deposits, or Telegram task payments. Discontinue contact and do not transfer funds.",
+      "verdictSummary": "Work-from-home or task scam with upfront fee request",
+      "scanDateTime": "Oct 21 at 2026, 09:49 PM"
+    },
+    {
+      "id": "SCN-243778-717",
+      "visitorId": "USR-H13TPD",
+      "visitorName": null,
+      "userEmail": "dev@gmail.com",
+      "submittedText": "hju",
+      "scanType": "msg",
+      "msg": "hju",
+      "message": "hju",
+      "url": null,
+      "image": null,
+      "verdictStatus": "SAFE",
+      "riskScore": 0,
+      "riskLevel": "Safe",
+      "category": "General Message",
+      "warningSigns": [],
+      "explanation": "No scam patterns, phishing indicators, or suspicious requests detected in this message. Content appears standard and safe.",
+      "recommendation": "No obvious red flags detected. Maintain standard security awareness and never share sensitive codes, passwords, or banking details with unverified senders.",
+      "verdictSummary": "No scam patterns or red flags detected in message",
+      "scanDateTime": "Oct 21, 2026 at 09:10 PM"
+    },
+    {
+      "id": "SCN-260573-622",
+      "visitorId": "USR-H13TPD",
+      "visitorName": "sai",
+      "userEmail": "saiyerrapatruni@gmail.com",
+      "submittedText": "Your Google verification code is 482910. Google will never call or message you to ask for this code. Do not share this code with anyone.",
+      "scanType": "msg",
+      "msg": "Your Google verification code is 482910. Google will never call or message you to ask for this code. Do not share this code with anyone.",
+      "message": "Your Google verification code is 482910. Google will never call or message you to ask for this code. Do not share this code with anyone.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "SAFE",
+      "riskScore": 0,
+      "riskLevel": "Safe",
+      "category": "Legitimate 2FA Authentication Alert",
+      "warningSigns": [],
+      "explanation": "This message exhibits standard characteristics of an authentic two-factor authentication (2FA) notification. It includes appropriate security disclaimers instructing you never to share the verification code.",
+      "recommendation": "Keep this security code private. Only enter it directly into the official service login screen, and never share it with anyone who calls or texts.",
+      "verdictSummary": "Legitimate 2FA security authentication code",
+      "scanDateTime": "Oct 16, 2026 at 04:44 PM"
+    },
+    {
+      "id": "SCN-230998-980",
+      "visitorId": "USR-H13TPD",
+      "visitorName": "sai",
+      "userEmail": "saiyerrapatruni@gmail.com",
+      "submittedText": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "scanType": "msg",
+      "msg": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "message": "Part-time work from home job! Earn $500 daily by liking YouTube videos. Pay $50 registration fee for job security deposit to start today on Telegram.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 95,
+      "riskLevel": "Likely Scam",
+      "category": "Fake Job Scam",
+      "warningSigns": [
+        {
+          "id": "job_fee",
+          "title": "Work-from-Home or Task Scam with Upfront Fee",
+          "category": "Fake Job Scam",
+          "description": "Real employers will never charge an upfront registration fee, security deposit, or task payment to begin work.",
+          "weight": 50,
+          "matchedWords": [
+            "Part-time work",
+            "Earn $500 daily by liking",
+            "registration fee",
+            "job security deposit"
+          ]
+        },
+        {
+          "id": "advance_fee",
+          "title": "Advance Processing or Customs Fee Demand",
+          "category": "Advance Fee Fraud",
+          "description": "Never pay upfront fees, customs duties, or handling charges to claim prizes, jobs, or courier deliveries.",
+          "weight": 45,
+          "matchedWords": [
+            "registration fee"
+          ]
+        }
+      ],
+      "explanation": "Fake work-from-home or task scam detected. The message advertises easy daily earnings (\"Part-time work\", \"Earn $500 daily by liking\", \"registration fee\", \"job security deposit\") designed to lure victims into paying upfront registration fees or task deposits.",
+      "recommendation": "Real employers never require upfront registration fees, security deposits, or Telegram task payments. Discontinue contact and do not transfer funds.",
+      "verdictSummary": "Work-from-home or task scam with upfront fee request",
+      "scanDateTime": "Oct 16, 2026 at 04:43 PM"
+    },
+    {
+      "id": "SCN-955369-144",
+      "visitorId": "VIS-HKPE65",
+      "visitorName": "Alex",
+      "userEmail": "alex@example.com",
+      "submittedText": "Dear Customer, your SBI account KYC has expired. Your account will be blocked within 24 hours. Update your KYC immediately at http://sbi-kyc-verify.top to avoid permanent suspension.",
+      "scanType": "msg",
+      "msg": "Dear Customer, your SBI account KYC has expired. Your account will be blocked within 24 hours. Update your KYC immediately at http://sbi-kyc-verify.top to avoid permanent suspension.",
+      "message": "Dear Customer, your SBI account KYC has expired. Your account will be blocked within 24 hours. Update your KYC immediately at http://sbi-kyc-verify.top to avoid permanent suspension.",
+      "url": null,
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 100,
+      "riskLevel": "Likely Scam",
+      "category": "Subdomain Phishing Attack",
+      "warningSigns": [
+        {
+          "id": "bank_threat",
+          "title": "Urgent Threat to Bank Account",
+          "category": "Bank Fraud",
+          "description": "Scammers manufacture artificial panic with tight deadlines so victims react without thinking.",
+          "weight": 45,
+          "matchedWords": [
+            "account will be blocked",
+            "within 24 hours"
+          ]
+        },
+        {
+          "id": "fake_kyc",
+          "title": "Fake KYC / Identity Update Notice",
+          "category": "KYC Phishing",
+          "description": "Banks never send SMS or messaging links asking customers to complete KYC, PAN, or Aadhaar updates online.",
+          "weight": 45,
+          "matchedWords": [
+            "KYC has expired",
+            "Update your KYC"
+          ]
+        },
+        {
+          "id": "suspicious_link",
+          "title": "Urgent Link-Click Call to Action",
+          "category": "Phishing Link",
+          "description": "Unsolicited messages urging you to click or tap an unverified website link often lead to phishing or credential-harvesting websites.",
+          "weight": 35,
+          "matchedWords": [
+            "http://sbi-kyc-verify.top"
+          ]
+        },
+        {
+          "id": "subdomain_deception",
+          "title": "Deceptive Subdomain Brand Impersonation (State Bank of India)",
+          "category": "Subdomain Phishing Attack",
+          "weight": 75,
+          "description": "The URL prefixes 'State Bank of India' in its subdomain to mislead users, but the actual root destination domain is 'sbi-kyc-verify.top', NOT official State Bank of India.",
+          "matchedWords": [
+            "sbi-kyc-verify.top",
+            "actual host: sbi-kyc-verify.top"
+          ]
+        },
+        {
+          "id": "financial_phishing_domain",
+          "title": "Financial / Account Suspension Phishing Domain",
+          "category": "Bank Fraud Phishing Link",
+          "weight": 75,
+          "description": "The website address ('sbi-kyc-verify.top') contains financial fraud keywords (\"kyc\"). Unofficial domains using bank verification terms are created to harvest net banking credentials and OTPs.",
+          "matchedWords": [
+            "kyc"
+          ]
+        },
+        {
+          "id": "multi_hyphen_domain",
+          "title": "Multi-Hyphenated Deceptive Domain Structure",
+          "category": "Deceptive Domain",
+          "weight": 25,
+          "description": "The domain 'sbi-kyc-verify' strings multiple hyphenated words together (2 hyphens). Scammers frequently concatenate common words to bypass spam filters and mimic real services.",
+          "matchedWords": [
+            "sbi-kyc-verify"
+          ]
+        },
+        {
+          "id": "high_risk_tld",
+          "title": "Disposable High-Risk Domain Extension (.top)",
+          "category": "Phishing Link",
+          "weight": 35,
+          "description": "The link uses a cheap, disposable burner domain extension (.top) predominantly favored by cybercriminals for throwaway phishing portals.",
+          "matchedWords": [
+            ".top"
+          ]
+        },
+        {
+          "id": "insecure_http",
+          "title": "Unencrypted HTTP Protocol",
+          "category": "Insecure Link",
+          "weight": 20,
+          "description": "The link uses plain unencrypted HTTP rather than secure HTTPS. Any passwords or personal details entered can be intercepted in transit.",
+          "matchedWords": [
+            "http://"
+          ]
+        }
+      ],
+      "explanation": "Urgent financial fraud threat detected. The message creates artificial panic around bank account suspension or unauthorized charges (\"account will be blocked\", \"within 24 hours\") to coerce you into revealing credentials or calling a fake number.",
+      "recommendation": "Do NOT click any links or call phone numbers in this message. Log in directly via your official bank mobile app or call the number printed on the back of your debit card.",
+      "verdictSummary": "Urgent bank account fraud alert detected",
+      "scanDateTime": "Oct 16, 2026 at 04:39 PM"
+    }
+  ],
+  "url": [
+    {
+      "id": "SCN-784463-800",
+      "visitorId": "VIS-QEZM66",
+      "visitorName": "harsha",
+      "submittedText": "http://sbi-kyc-verify.top/login",
+      "scanType": "url",
+      "msg": null,
+      "message": null,
+      "url": "http://sbi-kyc-verify.top/login",
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 100,
+      "riskLevel": "Likely Scam",
+      "category": "Subdomain Phishing Attack",
+      "warningSigns": [
+        {
+          "id": "subdomain_deception",
+          "title": "Deceptive Subdomain Brand Impersonation (State Bank of India)",
+          "category": "Subdomain Phishing Attack",
+          "weight": 75,
+          "description": "The URL prefixes 'State Bank of India' in its subdomain to mislead users, but the actual root destination domain is 'sbi-kyc-verify.top', NOT official State Bank of India.",
+          "matchedWords": [
+            "sbi-kyc-verify.top",
+            "actual host: sbi-kyc-verify.top"
+          ]
+        },
+        {
+          "id": "financial_phishing_domain",
+          "title": "Financial / Account Suspension Phishing Domain",
+          "category": "Bank Fraud Phishing Link",
+          "weight": 75,
+          "description": "The website address ('sbi-kyc-verify.top') contains financial fraud keywords (\"kyc\"). Unofficial domains using bank verification terms are created to harvest net banking credentials and OTPs.",
+          "matchedWords": [
+            "kyc"
+          ]
+        },
+        {
+          "id": "multi_hyphen_domain",
+          "title": "Multi-Hyphenated Deceptive Domain Structure",
+          "category": "Deceptive Domain",
+          "weight": 25,
+          "description": "The domain 'sbi-kyc-verify' strings multiple hyphenated words together (2 hyphens). Scammers frequently concatenate common words to bypass spam filters and mimic real services.",
+          "matchedWords": [
+            "sbi-kyc-verify"
+          ]
+        },
+        {
+          "id": "high_risk_tld",
+          "title": "Disposable High-Risk Domain Extension (.top)",
+          "category": "Phishing Link",
+          "weight": 35,
+          "description": "The link uses a cheap, disposable burner domain extension (.top) predominantly favored by cybercriminals for throwaway phishing portals.",
+          "matchedWords": [
+            ".top"
+          ]
+        },
+        {
+          "id": "insecure_http",
+          "title": "Unencrypted HTTP Protocol",
+          "category": "Insecure Link",
+          "weight": 20,
+          "description": "The link uses plain unencrypted HTTP rather than secure HTTPS. Any passwords or personal details entered can be intercepted in transit.",
+          "matchedWords": [
+            "http://"
+          ]
+        }
+      ],
+      "explanation": "The URL prefixes 'State Bank of India' in its subdomain to mislead users, but the actual root destination domain is 'sbi-kyc-verify.top', NOT official State Bank of India. The website address ('sbi-kyc-verify.top') contains financial fraud keywords (\"kyc\"). Unofficial domains using bank verification terms are created to harvest net banking credentials and OTPs. The domain 'sbi-kyc-verify' strings multiple hyphenated words together (2 hyphens). Scammers frequently concatenate common words to bypass spam filters and mimic real services. The link uses a cheap, disposable burner domain extension (.top) predominantly favored by cybercriminals for throwaway phishing portals. The link uses plain unencrypted HTTP rather than secure HTTPS. Any passwords or personal details entered can be intercepted in transit.",
+      "recommendation": "Do NOT visit, click, or enter any credentials on this link ('http://sbi-kyc-verify.top/login'). It is identified as a deceptive phishing clone. Navigate directly to the official website instead.",
+      "verdictSummary": "Phishing clone / lookalike domain (sbi-kyc-verify.top)",
+      "scanDateTime": "Oct 15, 2026 at 09:59 PM"
+    },
+    {
+      "id": "SCN-774447-637",
+      "visitorId": "VIS-QEZM66",
+      "visitorName": "harsha",
+      "submittedText": "www.google.com",
+      "scanType": "url",
+      "msg": null,
+      "message": null,
+      "url": "www.google.com",
+      "image": null,
+      "verdictStatus": "SAFE",
+      "riskScore": 0,
+      "riskLevel": "Safe",
+      "category": "Verified Official Website",
+      "warningSigns": [],
+      "explanation": "This link matches the authenticated official domain for Google (google.com). It does not exhibit typosquatting or deceptive redirects.",
+      "recommendation": "Link appears legitimate. Ensure you remain on an encrypted HTTPS connection with a valid certificate before entering any credentials.",
+      "verdictSummary": "Verified authentic domain for Google (google.com)",
+      "scanDateTime": "Oct 15, 2026 at 09:59 PM"
+    },
+    {
+      "id": "SCN-763936-530",
+      "visitorId": "VIS-QEZM66",
+      "visitorName": "harsha",
+      "submittedText": "www.goooogle.com",
+      "scanType": "url",
+      "msg": null,
+      "message": null,
+      "url": "www.goooogle.com",
+      "image": null,
+      "verdictStatus": "LIKELY_SCAM",
+      "riskScore": 75,
+      "riskLevel": "Likely Scam",
+      "category": "Brand Impersonation Phishing",
+      "warningSigns": [
+        {
+          "id": "typosquatting_repeated",
+          "title": "Typosquatting & Repeated Letters Imitating Google",
+          "category": "Brand Impersonation Phishing",
+          "weight": 75,
+          "description": "This website ('goooogle.com') uses deliberate typosquatting to impersonate Google. The domain repeats characters ('goooogle' instead of 'google.com') to deceive visitors.",
+          "matchedWords": [
+            "goooogle",
+            "fake clone of google.com"
+          ]
+        }
+      ],
+      "explanation": "This website ('goooogle.com') uses deliberate typosquatting to impersonate Google. The domain repeats characters ('goooogle' instead of 'google.com') to deceive visitors.",
+      "recommendation": "Do NOT visit, click, or enter any credentials on this link ('www.goooogle.com'). It is identified as a deceptive phishing clone. Navigate directly to the official website instead.",
+      "verdictSummary": "Phishing clone / lookalike domain (goooogle.com)",
+      "scanDateTime": "Oct 15, 2026 at 09:59 PM"
+    }
+  ],
+  "image": []
+}
